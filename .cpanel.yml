@@ -2,4 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/freizeit/tschardonnay.eu
-    - ./ -R *.* $DEPLOYPATH
+    - ./ -R node_modules $DEPLOYPATH
+    - ./ -R _site $DEPLOYPATH
+    - ./ index.html $DELOYPATH
+    - ./ package.json $DEPLOYPATH
+    - ./ README.md $DEPLOYPATH
+    - ./ package-lock.json $DEPLOYPATH

@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/freizeit/tschardonnay.eu
+    - export DEPLOYPATH=/home/freizeit/tschardonnay.eu/
     - /bin/cp -R node_modules $DEPLOYPATH
     - /bin/cp -R _site $DEPLOYPATH
     - /bin/cp index.html $DELOYPATH

@@ -2,9 +2,14 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/freizeit/tschardonnay.eu/
-    - /bin/cp -R node_modules $DEPLOYPATH
+    - /bin/cp -R _includes $DEPLOYPATH
     - /bin/cp -R _site $DEPLOYPATH
-    - /bin/cp index.html $DELOYPATH
-    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp -R d3 $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R node_modules $DEPLOYPATH
+    - /bin/cp .eleventy.js $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp index.njk $DEPLOYPATH
+    - /bin/cp levindestrois $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH

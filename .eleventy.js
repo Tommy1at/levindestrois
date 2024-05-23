@@ -7,7 +7,9 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       output: "_site",
-      data: '_data'
+      data: "_data",
+      d3: "d3",
+      images: "images"
     }
   };
 };

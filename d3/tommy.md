@@ -1,9 +1,9 @@
 ---
 layout: layout.njk
-title: Dominik Aspeck
+title: Dominik C. Aspeck
 tags: tommy
 ---
 
-# Dominik Aspeck
+# Dominik C. Aspeck
 
 Wein-Ritter und mehr

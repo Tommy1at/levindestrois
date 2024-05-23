@@ -1,7 +1,10 @@
 ---
 layout: layout.njk
 title: Dominik C. Aspeck
-tags: tommy
+tags: d3
+eleventyNavigation:
+  key: tommy
+  order: 3
 ---
 
 # Dominik C. Aspeck

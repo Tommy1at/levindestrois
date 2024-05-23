@@ -1,6 +1,10 @@
 ---
 layout: layout.njk
 title: Les vin des trois!
+tags: start
+eleventyNavigation:
+  key: start
+  order: 1
 ---
 
 <h1>Tschardonnay</h1>
@@ -8,7 +12,7 @@ title: Les vin des trois!
 <img src="/images/d3.png" alt="Die Drei in Aktion.">
 
 <ul>
-	{% for post in collections.tommy %}
+	{% for post in collections.d3 %}
 	<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 	{% endfor %}
 </ul>

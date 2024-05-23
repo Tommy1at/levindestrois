@@ -3,27 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tschardonnay - Les vin des trois!</title>
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="/levindestrois.css"/>
 </head>
 <body>
   <header>
-    <h1>Tschardonnay - Les vin des trois!</h1>
+    <h1>{{ title }}</h1>
   </header>
   <main>
     <nav>
 	<a href="/">Start</a>
     </nav>
-    
-<h1>Tschardonnay - Les vin des trois!</h1>
-
-
-<ul>
-	
-	<li><a href="/tommy/">Dominik Aspeck</a></li>
-	
-</ul>
-
+    {{ content | safe }}
   </main>
   <footer>
     <p>&copy; 2024 Dominik Aspeck (Les vin des trois!)</p>

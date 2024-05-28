@@ -8,11 +8,11 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true,
     dir: {
       input: ".",
-      includes: "_includes",
+      includes: "src/_includes",
       output: "_site",
-      data: "_data"
+      data: "src/_data",
 //      d3: "d3",
-//      images: "images"
+      images: "src/_images"
     }
   };
 };

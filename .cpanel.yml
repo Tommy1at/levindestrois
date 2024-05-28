@@ -8,6 +8,9 @@ deployment:
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R node_modules $DEPLOYPATH
     - /bin/cp .eleventy.js $DEPLOYPATH
+    - /bin/cp -R _site $DEPLOYPATH
+    - /bin/cp index.njk $DELOYPATH
+    - /bin/cp package.json $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
     - /bin/cp index.njk $DEPLOYPATH
     - /bin/cp levindestrois $DEPLOYPATH

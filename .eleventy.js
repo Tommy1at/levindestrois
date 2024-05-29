@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
       includes: "src/_includes",
       output: "_site",
       data: "src/_data",
-//      d3: "d3",
+      d3: "src/d3",
       images: "src/_images"
     }
   };

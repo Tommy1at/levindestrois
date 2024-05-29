@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: base.njk
 title: Ing. Wolfgang Gubensäk
 tags: d3
 eleventyNavigation:
@@ -9,4 +9,11 @@ eleventyNavigation:
 
 # Wolfi
 
-Maschinenbau-Ingeneur und Software-Entwickler
+<div class="container">
+  {% Image src="../assets/images/wolfi.png", alt="Wolfi" %}
+  <span> Maschinenbau-Ingeneur & Software-Entwickler </span>
+</div>
+
+
+
+---

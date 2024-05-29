@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: base.njk
 title: Dominik C. Aspeck
 tags: d3
 eleventyNavigation:
@@ -9,6 +9,11 @@ eleventyNavigation:
 
 # Tommy
 
-Wein-Ritter und mehr...
+<div class="container">
+  {% Image src="../assets/images/tommy.png", alt="Tommy" %}
+  <span> Wein-Ritter und mehr... </span>
+</div>
 
-![Die Drei in Aktion.](/images/d3.png "Die Drei in Aktion.")
+
+
+---

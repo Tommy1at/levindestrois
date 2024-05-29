@@ -1,0 +1,37 @@
+---
+layout: 'base.njk'
+title: Les vin des trois!
+tags: start
+eleventyNavigation:
+  key: start
+  order: 1
+---
+
+<h1>Tschardonnay</h1>
+<p>Wie aus einer Idee ein Projekt und aus einem Projekt ein Wein wurde.</p>
+{% Image src="./assets/images/d3.png", alt="Die Drei in Aktion." %}
+
+<ul>
+	{% for post in collections.d3 %}
+	<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+	{% endfor %}
+</ul>
+
+<div class="container-home">
+<!--  {% include "github.njk" %} {% include "logo.njk" %}
+
+  <h1 class="display-1">yaes</h1>
+
+  <button>
+    <span role="img" aria-label="confetti ball">🎊</span>
+  </button>
+-->
+  <p class="text-4xl">Blick auf den Weingarten</p>
+
+  {% Image src="./assets/images/wineyard.jpg", alt="Blick auf den Weingarten" %}
+  <span> 🌍 Gamlitz, Suedsteiermark </span>
+</div>
+
+
+
+---

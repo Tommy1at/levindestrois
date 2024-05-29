@@ -1,0 +1,35 @@
+.container,
+.container-home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: rfs(2rem) rfs(1rem);
+
+  & button {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 4rem;
+    margin-bottom: rfs(2rem);
+    padding: rfs(1.5rem);
+  }
+
+  & h1 {
+    padding-top: rfs(3rem);
+    text-transform: uppercase;
+  }
+
+  & img {
+    margin-top: 2rem;
+  }
+}
+
+.container-home {
+  max-width: 600px;
+}

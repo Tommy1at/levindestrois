@@ -4,4 +4,4 @@ dist
 build
 public
 yarn-error.log
-_site
+_sitenode_modules

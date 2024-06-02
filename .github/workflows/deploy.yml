@@ -15,8 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: List directory contents
-        run: ls -la .github/workflows/
+#      - name: List directory contents
+#        run: ls -la .github/workflows/
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh/
@@ -35,7 +35,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build the site
-        run: npx @11ty/eleventy
+#        run: npx @11ty/eleventy
+#        run: npm run build
+        run: yarn build        
       - name: Run deploy script
         run: |
           ssh syncflux@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy.sh

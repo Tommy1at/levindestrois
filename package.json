@@ -208,6 +208,9 @@
     "ws": "^8.17.0",
     "yallist": "^4.0.0"
   },
+  "scripts": {
+    "build": "eleventy"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tommy1at/levindestrois.git"

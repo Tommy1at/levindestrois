@@ -1,0 +1,36 @@
+name: Deploy Eleventy Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step to check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step to set up Node.js environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Specify the Node.js version
+
+      # Step to install dependencies
+      - name: Install dependencies
+        run: yarn install
+
+      # Step to build the Eleventy site
+      - name: Build the site
+        run: npx @11ty/eleventy  # Ensure this command builds your Eleventy site
+
+      # Step to deploy the built site to GitHub Pages
+      - name: Deploy to GitHub Pages
+       # uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}  # Use the GitHub token secret for authentication
+          publish_dir: ./_site  # Ensure this matches the output directory of your Eleventy build

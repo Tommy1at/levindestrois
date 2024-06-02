@@ -1,5 +1,5 @@
 [build]
-  command = "npx build run"
+  command = "npm run build"
   publish = "_site"
 
 [context.production.environment]

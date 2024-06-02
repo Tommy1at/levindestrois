@@ -24,4 +24,4 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Run deploy script
         run: |
-          ssh syncflux@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy.sh
+          ssh Tommy1at@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy.sh

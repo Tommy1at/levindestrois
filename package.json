@@ -209,6 +209,9 @@
     "type": "git",
     "url": "git+https://github.com/Tommy1at/levindestrois.git"
   },
+  "scripts": {
+    "build": "eleventy"
+  },
   "bugs": {
     "url": "https://github.com/Tommy1at/levindestrois/issues"
   },

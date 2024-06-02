@@ -134,6 +134,8 @@
     "multimatch": "^5.0.0",
     "mustache": "^4.2.0",
     "neo-async": "^2.6.2",
+    "node-addon-api": "^8.0.0",
+    "node-gyp": "^10.1.0",
     "normalize-path": "^3.0.0",
     "nunjucks": "^3.2.4",
     "object-assign": "^4.1.1",

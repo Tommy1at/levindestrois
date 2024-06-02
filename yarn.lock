@@ -1061,6 +1061,13 @@ mime@^3.0.0:
   resolved "https://registry.yarnpkg.com/mime/-/mime-3.0.0.tgz#b374550dca3a0c18443b0c950a6a58f1931cf7a7"
   integrity sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==
 
+minimatch@*:
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.4.tgz#8e49c731d1749cbec05050ee5145147b32496a51"
+  integrity sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==
+  dependencies:
+    brace-expansion "^2.0.1"
+
 minimatch@^3.0.0, minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
@@ -1469,6 +1476,13 @@ run-parallel@^1.1.9, run-parallel@^1.2.0:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+run@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/run/-/run-1.5.0.tgz#1933b3e9d4008836d800035f43e265ab8a83c5bf"
+  integrity sha512-CBPzeX6JQZUdhZpSFyNt2vUk44ivKMWZYCNBYoZYEE46mL9nf6WyMP3320WnzIrJuo89+njiUvlo83jUEXjXLg==
+  dependencies:
+    minimatch "*"
 
 section-matter@^1.0.0:
   version "1.0.0"

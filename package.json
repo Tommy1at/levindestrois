@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy-img": "^4.0.2"
   },
   "dependencies": {
     "@11ty/eleventy-img": "^4.0.2",
@@ -204,12 +204,7 @@
     "ws": "^8.17.0",
     "yallist": "^4.0.0"
   },
-  {
-  "devDependencies": {
-    "@11ty/eleventy-img": "^4.0.2"
-    }
-  }
-"repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/Tommy1at/levindestrois.git"
   },

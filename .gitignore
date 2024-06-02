@@ -1,7 +1,4 @@
-node_modules/node
-node_modules/puppeteer
 web_modules
 dist
 build
 public
-yarn-error.log

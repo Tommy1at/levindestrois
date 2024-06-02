@@ -182,6 +182,7 @@
     "semver": "^7.6.2",
     "semver-compare": "^1.0.0",
     "set-function-length": "^1.2.2",
+    "sharp": "^0.33.4",
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "slash": "^1.0.0",
@@ -210,6 +211,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tommy1at/levindestrois.git"
+  },
+  "resolutions": {
+    "sharp": "^0.33.4"
   },
   "bugs": {
     "url": "https://github.com/Tommy1at/levindestrois/issues"

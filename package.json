@@ -204,7 +204,12 @@
     "ws": "^8.17.0",
     "yallist": "^4.0.0"
   },
-  "repository": {
+  {
+  "devDependencies": {
+    "@11ty/eleventy-img": "^4.0.2"
+    }
+  }
+"repository": {
     "type": "git",
     "url": "git+https://github.com/Tommy1at/levindestrois.git"
   },

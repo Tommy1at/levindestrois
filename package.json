@@ -6,6 +6,7 @@
   "scripts": {
     "build": "eleventy"
   },
+  "packageManager": "yarn@4.2.2",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -207,9 +208,6 @@
     "wrappy": "^1.0.2",
     "ws": "^8.17.0",
     "yallist": "^4.0.0"
-  },
-  "scripts": {
-    "build": "eleventy"
   },
   "repository": {
     "type": "git",

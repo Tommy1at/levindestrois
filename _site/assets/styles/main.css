@@ -130,3 +130,9 @@ button {
 button:hover {
   background-color: #555;
 }
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}

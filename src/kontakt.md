@@ -9,6 +9,8 @@ eleventyNavigation:
 
 # Kontakt
 
+> **Datenschutzhinweis:** Mit dem Absenden werden Name, E-Mail-Adresse und Nachricht zur Bearbeitung ueber den Formulardienst Getform uebermittelt. Details stehen in der [Datenschutzerklaerung](/datenschutz/).
+
 <form action="https://getform.io/f/pboxyjna" method="POST">
     <div>
         <label for="name">Name:</label>
